@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather app</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1b44e29782.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container border">
+      <div class="row">
+        <div class="col-sm-6">
+          <h1 id="city">Your Location</h1>
+
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ccv-vv5dCd5y-Gi6SCxtwwM02wYkwt3qfKx_rRxYXx4chMlu"
+            alt="cityimage"
+          />
+        </div>
+        <div class="col-sm-6">
+          <form id="search-form">
+            <input
+              type="Location"
+              id="city-input"
+              placeholder="Enter location"
+              display="on"
+              autocomplete="off"
+            />
+          </form>
+
+          <button
+            type="button"
+            class="btn btn-primary"
+            id="current-location"
+            data-toggle="button"
+            aria-pressed="false"
+            autocomplete="off"
+          >
+            Current Location
+          </button>
+
+          <div id="current-date"></div>
+          <div id="current-temperature"></div>
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>

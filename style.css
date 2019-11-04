@@ -1,0 +1,59 @@
+.container {
+  display: block;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  border-radius: 4px;
+  grid-auto-flow: column;
+  float: left;
+}
+img {
+  position: relative;
+  border-radius: 70px;
+  position: relative;
+  margin-left: 10px;
+  margin-top: auto;
+  padding: 7px;
+  position: fixed;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  margin-left: 75px;
+  margin-top: 65px;
+  padding: 7px;
+  z-index: 100;
+  position: fixed;
+  font-family: "Amatic SC", cursive;
+  color: #212121;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.row {
+  margin-top: 80px;
+}
+
+#current-date {
+  display: block;
+  padding-top: 70px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: grey;
+  font-size: 30px;
+}
+
+#current-temperature {
+  display: block;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #616161;
+  font-size: 25px;
+}
+
+.btn {
+  display: block;
+  margin-top: 5px;
+  margin-left: 35px;
+  padding: 0 auto;
+  font-size: 12px;
+}
